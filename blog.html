@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/utilities.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>The Salon</title>
+</head>
+
+<body id="blog">
+  <header class="main-blog">
+    <div id="navbar" class="navbar">
+      <h1 class="logo">
+        <span class="text-primary"><i class="fas fa-dog fa-2x"></i> The</span> Salon
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#clients">Clients</a></li>
+            <li><a href="index.html#blog">Blog</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+    </div>
+    <div class="content text-secondary">
+      <h1>Blog</h1>
+      
+    </div>
+  </header>
+  
+<!-- Article 1-->
+<article  id="blog" class="blog flex-columns">
+  <div class="row">
+    <div class="column">
+    <div class="column-1">
+     <img src="./images/home/blog.jpg" alt="">
+   </div>
+  </div>
+    <div class="column">
+    <div class="column-2 bg-secondary">
+     <h4 id="current-date"></h4>
+     <h2>Blog Post One</h2>
+     <p class="meta">
+       <i class="fas fa-user"></i> Posted by <strong>JoJo</strong> | May 6th 2020
+     </p>
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto delectus magni facere et! Eveniet, ducimus.</p>
+     <a href="post.html" class="btn">
+       <i class="fas fa-paw"></i> Read Our Blogs</a>
+   </div>
+  </div>
+  </div>
+</article>
+
+<!-- Article 2-->
+ <article  id="blog" class="blog flex-columns flex-reverse">
+    <div class="row">
+      <div class="column">
+      <div class="column-1">
+       <img src="./images/home/blog.jpg" alt="">
+     </div>
+    </div>
+      <div class="column">
+      <div class="column-2 bg-secondary">
+        <h4 id=""></h4>
+       <h2>Blog Post Two</h2>
+       <p class="meta">
+        <i class="fas fa-user"></i> Posted by <strong>GiGi</strong> | May 1st 2020
+      </p>
+       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto delectus magni facere et! Eveniet, ducimus.</p>
+       <a href="post.html" class="btn">
+         <i class="fas fa-paw"></i> Read Our Blogs</a>
+     </div>
+    </div>
+    </div>
+ </article>
+
+ <!-- Article 3-->
+ <article  id="blog" class="blog flex-columns">
+  <div class="row">
+    <div class="column">
+    <div class="column-1">
+     <img src="./images/home/blog.jpg" alt="">
+   </div>
+  </div>
+    <div class="column">
+    <div class="column-2 bg-secondary">
+     <h4 id=""></h4>
+     <h2>Blog Post Three</h2>
+     <p class="meta">
+      <i class="fas fa-user"></i> Posted by <strong>Doug</strong> | April 10th 2020
+    </p>
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto delectus magni facere et! Eveniet, ducimus.</p>
+     <a href="post.html" class="btn">
+       <i class="fas fa-paw"></i> Read Our Blogs</a>
+   </div>
+  </div>
+  </div>
+</article>
+
+</main>
+<footer class="footer">
+  <div class="social">
+    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
+    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
+    <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-3x"></i></a>
+    <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+  </div>
+<p>Copyright &copy 2020 - The Salon</p>
+</footer>
+
+  <!-- Javascript Current Date -->
+  <script>
+    var d = new Date();
+    document.getElementById("current-date").innerHTML = d.toDateString();
+  </script>
+</body>
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/utilities.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>The Salon</title>
+</head>
+
+<body id="home">
+  <header class="main">
+    <div id="navbar" class="navbar">
+      <h1 class="logo">
+        <span class="text-primary"><i class="fas fa-dog fa-2x"></i> The</span> Salon
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#clients">Clients</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+    </div>
+    <div class="content text-secondary">
+      <h1>Peace Of Mind</h1>
+      <p>We Provide Mindful Dog Grooming & Hydro Therapy </p>
+      <a href="#services" class="btn"><i class="fas fa-paw"></i> Read More</a>
+    </div>
+  </header>
+  <!-- Services: Icons -->
+  <main>
+    <section id="services" class="icons">
+      <div class="flex-items">
+        <div>
+          <i class="fas fa-hand-scissors fa-2x"></i>
+          <div>
+            <h3>Grooming</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, excepturi.</p>
+          </div>
+        </div>
+        <div>
+          <i class="fas fa-water fa-2x"></i>
+          <div>
+            <h3>Hydro Therapy</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, excepturi.</p>
+          </div>
+        </div>
+        <div>
+          <i class="fas fa-shower fa-2x"></i>
+          <div>
+            <h3>Bathing</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, excepturi.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services: Prices -->
+    <section class="prices flex-columns">
+      <div class="row">
+        <div class="column">
+        <div class="column-1">
+         <img src="./images/home/about.jpg" alt="">
+       </div>
+      </div>
+        <div class="column">
+        <div class="column-2 bg-secondary">
+         <h4>What services are you looking for?</h4>
+         <h2>See what services we provide</h2>
+         <p>We provide custom services depending on the needs of your dog</p>
+         <a href="services.html" class="btn">
+           <i class="fas fa-paw"></i> See List</a>
+       </div>
+      </div>
+      </div>
+   </section>
+
+   <!-- Clients -->
+   <section id="clients" class="clients flex-grid section-padding">
+     <header class="section-header">
+       <h4>Here are some current clients</h4>
+       <h2>Client's Looks</h2>
+       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, corrupti.</p>
+     </header>
+     <div class="row">
+       <div class="column">
+         <img src="./images/clients/dog-1.jpg" alt="">
+         <img src="./images/clients/dog-2.jpg" alt="">
+       </div>
+       <div class="column">
+         <img src="./images/clients/dog-3.jpg" alt="">
+         <img src="./images/clients/dog-4.jpg" alt="">
+       </div>
+       <div class="column">
+         <img src="./images/clients/dog-5.jpg" alt="">
+         <img src="./images/clients/dog-6.jpg" alt="">
+       </div>
+       <div class="column">
+         <img src="./images/clients/dog-7.jpg" alt="">
+         <img src="./images/clients/dog-8.jpg" alt="">
+       </div>
+     </div>
+   </section>
+
+   <!-- Blog -->
+   <section  id="blog" class="blog flex-columns flex-reverse">
+    <div class="row">
+      <div class="column">
+      <div class="column-1">
+       <img src="./images/home/blog.jpg" alt="">
+     </div>
+    </div>
+      <div class="column">
+      <div class="column-2 bg-secondary">
+       <h4 id="current-date"></h4>
+       <h2>Blog Posts</h2>
+       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto delectus magni facere et! Eveniet, ducimus.</p>
+       <a href="blog.html" class="btn">
+         <i class="fas fa-paw"></i> Read More</a>
+     </div>
+    </div>
+    </div>
+ </section>
+
+ <!-- Team -->
+ <section id="team" class="team">
+  <div class="flex-items">
+    <div>
+      <img src="./images/team/team-1.jpg" alt="">
+      <div>
+        <h3>JoJo</h3>
+        <p>Founder / Co-Owner</p>
+      </div>
+    </div>
+    <div>
+      <img src="./images/team/team-2.jpg" alt="">
+      <div>
+        <h3>Doug</h3>
+        <p>Co-Owner</p>
+      </div>
+    </div>
+    <div>
+      <img src="./images/team/team-3.jpg" alt="">
+      <div>
+        <h3>GiGi</h3>
+        <p>VP Marketing</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact"class="contact flex-columns">
+  <div class="row">
+    <div class="column">
+    <div class="column-1">
+     <img src="./images/home/contact.jpg" alt="">
+   </div>
+  </div>
+    <div class="column">
+      <div class="column-2 bg-primary">
+        <h2>Request A Consultation</h2>
+        <form action="" class="callback-form">
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Name">
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter Email">
+          </div>
+          <div class="form-control">
+            <label for="phone">Phone</label>
+            <input type="text" name="phone" id="phone" placeholder="Enter Phone Number">
+          </div>
+          <div class="form-control">
+            <label for="comments">Comments</label>
+            <textarea type="text" name="comments" id="" cols="30" rows="10" placeholder="Enter comments"></textarea>
+          </div>
+          <input type="submit" value="send" id="submit" class="btn">
+        </form>
+   </div>
+  </div>
+  </div>
+</section>
+</main>
+<footer class="footer">
+  <div class="social">
+    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
+    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
+    <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-3x"></i></a>
+    <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+  </div>
+<p>Copyright &copy 2020 - The Salon</p>
+</footer>
+
+  <!-- Javascript Current Date -->
+  <script>
+    var d = new Date();
+    document.getElementById("current-date").innerHTML = d.toDateString();
+  </script>
+</body>
+</html>
